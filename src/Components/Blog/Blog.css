@@ -1,0 +1,57 @@
+
+.blog .blog1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #E30613;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+}
+#gquerle{
+    display: none;
+}
+#blogk{
+    display: none;
+}
+#bloga{
+    display: none;
+}
+#blogr{
+    display: none;
+}
+.blog .time::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color:rgba(0, 0, 0,0.4);
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bargrag{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 20px;
+    color: white;
+    transition:  all 0.5s;
+}
+.blog:hover .bargrag{
+    top: 0;
+}
+@media screen and (max-width:800px) {
+    .mediap{
+        font-size: 10px !important;
+    }
+    .time{
+        display: block !important;
+        font-size: 10px !important;
+    }
+    
+} 
