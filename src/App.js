@@ -6,10 +6,10 @@ import Product from './Components/Productdatilas/Product'
 
  const router= createBrowserRouter([
   {path:'',element:<Layout/>,children:[
-    {path:'BellOut/',element:<Blog/>},
+    {path:'BellOut',element:<Blog/>},
     {path:'/',element:<Blog/>},
-    {path:'/blog',element:<Blog/>},
-    {path:'/product',element:<Product/>},
+    {path:'blog',element:<Blog/>},
+    {path:'product',element:<Product/>},
   ]}
 ])
 
